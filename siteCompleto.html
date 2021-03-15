@@ -7,35 +7,39 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- /Bootstrap CSS -->
+
+    <!-- CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+    <!--/CSS -->
 
     <title>Meu Site Ghibli</title>
   </head>
   <body>
       <!--Menu-->
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-toggler">
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
+            
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Navegue pela página
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
+                <a class="dropdown-item" href="#video">Video</a>
+                <a class="dropdown-item" href="#texto">Texto</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
+                <a class="dropdown-item" href="#face">Facebook</a>
+                <a class="dropdown-item" href="#contato">Contato</a>
+                <a class="dropdown-item" href="#img">Imagens</a>
+
+
               </div>
             </li>
           </ul>
@@ -46,8 +50,10 @@
 
           <!--Jumbotron-->
     <div class="jumbotron bg-light">
-      <h1 class="display-4 text-center">Bem vindo!</h1>
-      <p class="lead text-center">Aqui você encontro melhor conteudo relacionado ao universo Ghibli!.</p>
+      <h1 class="display-4 text-center"> いらっしゃいませ</h1>
+      <h2 class="display-4 text-center">Bem vindo!</h2>
+
+      <p class="lead text-center">Aqui você encontro melhor conteudo relacionado ao universo Ghibli!</p>
     
     </div>
   <!--/Jumbotron-->
@@ -87,15 +93,17 @@
     <!--/Carrosel-->
 
       <!--Texto-->
-        <h3 class="text-center" >Totototoro</h3>
+        <h3 class="text-center" > <a name ="texto"> Totototoro </a> </h3>
       <p>
         O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
+        
+        原稿用紙とにらめっこする作文ではなく、ワクワクした気持ちで原稿用紙に向かっていける作文を―。作文倶楽部トトロでは、頭だけでなく、体いっぱい心いっ ぱいをフルに駆使した授業を行っています。はじめは「わからない」が口ぐせだ った子ども達が、いまは楽しみながら、時には思いっきり悩みながら、一生懸命 物事を考え、自分の思いを自分の言葉で表現しようとがんばっています。子ども 時代にたいせつなこと。それは「何を学んだか」ではなく「どうやって学んだか 」ということなのではないでしょうか。『作文』の地味なイメージが吹っ飛ぶユ ニークなカリキュラムの数々、五感と考える力を刺激するとびきり楽しい授業。 教室の雰囲気をぜひ体感してみてください。
     </p>
       <!--/Texto-->
 
 
     <!--Card e Videos-->
-<hr>
+
 <div class="row"> 
         <div class="card col-md-4  d-flex justify-content-center" style="width: 18rem; height: 20rem;">
             <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/61eyKcPqyCL._SL1095_.jpg" alt="Blue-Ray">
@@ -105,50 +113,74 @@
             </div>
           </div>
       
-          <div class="col-md-8 d-flex justify-content-center">
+          <div class="col-md-8 d-flex justify-content-center"><a name ="video"></a>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/92a7Hj0ijLs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>    
 </div>
    <!--/Card e Video-->
+<br>
+<br>
+
+<!-- Imagens-->
+<div><a name="img">
+  <img src="https://img1.ak.crunchyroll.com/i/spire1/39e6edbed5710c94802ff44a4d0dfada1498768369_large.png" class="rounded float-left ml mr mb" alt="Estudio">
+</div>
+<div>
+  <img src="https://i.pinimg.com/originals/0b/8a/e7/0b8ae7ad783acc1f2c91123839844be1.jpg" class="rounded float-right ml mr mb" alt="kokuriko">
+</div>
+<div class="mx-auto">
+  <img src="https://i.pinimg.com/originals/77/29/4a/77294a11bc9fc9062121e992f2113b4b.jpg" class="rounded float-left ml mr mb" alt="kaguya">
+</div>
+<div>  
+  <img src="https://www.animeunited.com.br/oomtumtu/2013/06/The-wind-rises-kaze-tachinu-Noticias-ANime-United-1.png" class="rounded float-right ml mr mb" alt="vidas ao vento">
+</div>
+</a>
+<!--/Imagens-->
 
     <!--formulário-->
-    <form>
-      <div class="form-row">
-        <div class="col-md-4 mb-3">
-          <label for="validationServerUsername">Usuário</label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="inputGroupPrepend3">@</span>
-            </div>
-            <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend3" required>
-            <div class="invalid-feedback">
-              Por favor, escolha um nome de usuário.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="col-md-6 mb-3">
-          <label for="validationServer03">Cidade</label>
-          <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Cidade" required>
-          <div class="invalid-feedback">
-            Por favor, informe uma cidade válida.
-          </div>
-        </div>
-        <div class="col-md-3 mb-3">
-          <label for="validationServer04">Estado</label>
-          <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado" required>
-          <div class="invalid-feedback">
-            Por favor, informe um estado válido.
-          </div>
-        </div>
-      </div>
-      <button class="btn btn-primary" type="submit">Enviar</button>
-    </form>
+    <div class="container row ml">
+      <div>
+          <form action="">
+              <label for="nome"><a name="contato">Nome:</a></label>
+              <br>
+              <input type="text" id="nome" onkeyup="validaNome()">
+              <div id="txtNome"></div>
+              <br>
+              <label for="email">E-mail:</label>
+              <br>
+              <input type="email" id="email" onkeyup="validaEmail()">
+              <div id="txtEmail"></div>
+              <br>
+              <label for="assunto">Assunto:</label>
+              <br>
+              <textarea name="assunto" id="assunto" cols="10" rows="5" onkeyup="validaAssunto()"></textarea>
+              <div id="txtAssunto"></div>
+              <br>
+              <button onclick="enviar()">Enviar</button>
+          </form>
+      </div>   
+      <div>
+        
+      </div>   
+  </div>
     <!--formulário-->
+<!-- Footer-->
+<hr>
+<footer>
+  <div class="container cont">
+      <a name="face" href="https://www.facebook.com/Alexsandro.qa/" target="_blank">
+          <img class="tm" src="assets/img/face.png" alt="Logo do Facebook">
+      </a>
+  </div>
+  <p class="meio">Copyright &copy Alexsandro Assunção. All Rights Reserved</p>
 
+</footer>
+<!--/Footer-->
 
-    <!-- JavaScript (Opcional) -->
+    <!-- JavaScript-->
+    <script src="assets/js/script.js"></script>
+    <!--/JavaScript-->
+
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
