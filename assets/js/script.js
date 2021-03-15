@@ -1,11 +1,3 @@
-/*
-Case Sensitive
-Por tag: getElementByTagName()
-Por id: getElementById()
-Por nome: getElementsByName()
-Por classe: getElementsByClassName()
-Por seletor: querySelector() nescessario o uso da #
-*/
 
 let nome = window.document.getElementById("nome")
 let email = document.querySelector("#email")
